@@ -1,0 +1,209 @@
+/* Тёмный дизайн на основе Material цветов */
+
+
+:root {
+	--accent: #121212 /* Главный цвет (акцент) */
+}
+
+.content {
+    padding: 16px 10px 16px 10px;
+    min-height: 430px;
+    background: #212121;
+}
+
+.other_tasks .overdue_tasks .overdue_head span.text { color: #eeeeee; }
+
+.footer {
+    background: #212121;
+    color: #eeeeee;
+}
+
+.controls_box { background-color: #424242; }
+
+.controls_box .week_switcher .thisweek .week_title span { background-color: #424242; }
+
+.week_title span.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #eeeeee;
+    font-size: small;
+}
+
+.controls_box .change_views .h, .controls_box .change_views .v { display: none; }
+
+.header .block-logo {
+    background: none;
+    height: 60px;
+}
+
+.school .header { background-color: #4c4c4c; }
+
+.header {
+    color: #eeeeee;
+    background: none;
+}
+
+.school .header .navbar {
+    border: 0px;
+	background: #5c5c5c;
+}
+
+.school .block-content h1 {
+    color: #1f85d5;
+    background: #424242;
+}
+
+.fggreen { color: #00bd00; }
+
+.left_col .day:hover, .right_col .day:hover {
+    background: #424242;
+}
+
+.left_col .day, .right_col .day { background: #424242; }
+
+
+.school .header .navbar .navbar-nav .dropdown-menu li a {
+    background: #424242 !important;
+	color: #d3d3d3 !important;
+}
+.school .header .navbar .navbar-nav .dropdown-menu li a:hover {
+    background: #535353 !important;
+	color: #d5d5d5 !important;
+}
+.dropdown-menu li:last-child>a {
+    -webkit-border-bottom-right-radius: unset;
+    border-bottom-right-radius: unset;
+    -webkit-border-bottom-left-radius: unset;
+    border-bottom-left-radius: unset;
+}
+
+.day_table table tr td {
+	background: #494949;
+	border-bottom: 1px solid #616161;
+}
+
+.day_table table tr:first-child td:nth-child(2), .day_table table tr:first-child td:nth-child(3), .day_table table tr:first-child td:nth-child(4) {
+    border-bottom: none;
+	color: #d3d3d3;
+}
+
+.day_table table tr:first-child td { background: #616161; }
+
+.day_table .three_dots a, .three_dots a { color: #c0c0c0;}
+
+.day_table table tr td:nth-child(2), .day_table table tr td:nth-child(3) { border-right: 1px dashed #6c6c6c; }
+
+.day_table table tr:first-child td:nth-child(3) { border-right: 1px dashed #6c6c6c; }
+
+.day_table table tr td:first-child { color: #52ae00; }
+
+.icon_dots {
+    bottom: 2px;
+    right: 2px;
+    background: #7c7c7c;
+    border: none;
+}
+
+.other_tasks .overdue_tasks table tr:first-child td, .other_tasks .training_courses_tasks table tr:first-child td {
+    background: #333333;
+    color: #d3d3d3;
+}
+
+.other_tasks .overdue_tasks table tr td.date, .other_tasks .overdue_tasks table tr td.date_data, .other_tasks .overdue_tasks table tr td.subject, .other_tasks .overdue_tasks table tr td.subject_data, .other_tasks .overdue_tasks table tr td.theme, .other_tasks .overdue_tasks table tr td.theme_data, .other_tasks .overdue_tasks table tr td.type, .other_tasks .overdue_tasks table tr td.type_data, .other_tasks .training_courses_tasks table tr td.date, .other_tasks .training_courses_tasks table tr td.date_data, .other_tasks .training_courses_tasks table tr td.subject, .other_tasks .training_courses_tasks table tr td.subject_data, .other_tasks .training_courses_tasks table tr td.theme, .other_tasks .training_courses_tasks table tr td.theme_data, .other_tasks .training_courses_tasks table tr td.type, .other_tasks .training_courses_tasks table tr td.type_data {
+	border-left: 1px solid #616161;
+    border-right: 1px dashed #616161;
+	border-bottom: 1px solid #6c6c6c;
+}
+
+.school .bootstrap-dialog.type-primary .modal-header { background-color: #52ae00; }
+
+.school .table th {
+	background: #434343;
+	color: #d3d3d3;
+}
+
+.modal .modal-body {
+	background: #494949;
+	color: #d9d9d9;
+}
+
+.table>tbody>tr>td { color: #d9d9d9 ;}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th, .table-bordered {
+    border: 1px solid #6c6c6c;
+}
+
+.school .bootstrap-dialog .bootstrap-dialog-title {
+    color: #f9f9f9;
+}
+bootstrap-dialog-title {
+	text-align: center;
+}
+
+
+.day_table table tr:first-child:hover td:nth-child(2), .day_table table tr:first-child:hover td:nth-child(3), .day_table table tr:first-child:hover td:nth-child(4) {
+    background-color: #6c6c6c;
+}
+
+.day_table table tr:hover td {
+    background-color: #535353;
+}
+
+.highlight .left_col .day, .highlight .right_col .day {
+    background-color: #424242;
+}
+
+.level_data.mark .mark, .level_data.one .one, .level_data.two .two, .level_data.three .three, .level_data.four .four, .level_data.five .five {
+    filter: brightness(1.3);
+}
+
+.form-horizontal .form-group .control-label {
+    text-align: center;
+    color: #d9d9d9;
+}
+
+.school span.form-control {
+    background-color: #494949;
+	color: #d9d9d9;
+}
+
+.form-control, .form-control-area {
+    border: 1px solid #7c7c7c;
+    border-radius: 0px;
+}
+
+.form-control-area {
+    color: #d7d7d7;
+    background-color: #494949;
+}
+
+.modal-content {
+    background-color: #494949;
+}
+
+.other_tasks .overdue_tasks table tr:hover td, .other_tasks .training_courses_tasks table tr:hover td, .other_tasks .overdue_tasks table tr:hover td.date_data, .other_tasks .training_courses_tasks table tr:hover td.date_data {
+    background: #474747;
+}
+
+.left_col .day:hover .day_table table tr:first-child td:first-child, .right_col .day:hover .day_table table tr:first-child td:first-child {
+    background: #418a00;
+}
+
+.highlight .day_table table tr:first-child td:nth-child(1) {
+    background-color: #4ba000;
+}
+
+.icons_files.lighter>i.mdi:before {
+    color: #6b6b6b;
+}
+
+.school div.apploader {
+    background: #424242;
+}
+
+.btn, .btn-default {
+	text-shadow: none;
+	background-image: none;
+}
+
+.school .btn-primary {
+	text-shadow: none;
+}
