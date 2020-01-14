@@ -1,3 +1,4 @@
+@-moz-document url-prefix("https://sgo.edu71.ru/angular/school/") {
 /* Тёмный дизайн на основе Material цветов 
 	Работоспособность на: Сетевой Город. Образование  4.40.45027.447  18.02.2019
 */
@@ -287,4 +288,5 @@ body {
 
 .attach > a:hover {
 	background-color: #565656;
+}
 }
